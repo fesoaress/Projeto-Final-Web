@@ -4,29 +4,33 @@
     padding: 10px;
 }
 
-header {
-    text-align: left;
-    position: fixed;     
-}
 
+#menu {
+    width: 30%;
+    margin: 0; 
+    padding: 0;
+    float: left;
+    }
 
 #logo {
-    width: 100%;
+    size-adjust: 500px;
     width: fit-content;
     text-align: left;
-
+    display: grid;   
 }
 
 .opcoes {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     font-weight: bold;
-    text-align: center;
-    background-color: rgb(105, 207, 105);   
+    background-color: rgb(126, 221, 126);   
     border-radius: 10px;
     width: 150px;
-    padding: 10px;
-    border: 0px;    
+    padding: 8px;   
+    border: 0px;
+    margin-left: 100px;
+    list-style-type: none;    
 }
 
 
