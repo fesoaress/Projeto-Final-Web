@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+}
+
+header {
+    text-align: left;
+    position: fixed;
+    
+}
+
+
+#logo {
+    size-adjust: 500px;
+    width: fit-content;
+    text-align: left;
+
+}
+
+.opcoes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: lightgreen;   
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    border: 0px;    
+}
