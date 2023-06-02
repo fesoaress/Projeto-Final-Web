@@ -8,6 +8,99 @@
     <title>Vida Verde| Contato</title>
     <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+
+    <!-- formulário -->
+    <style>
+        
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+
+        html,
+        body {
+        height: 100vh;
+        }
+
+        body {
+        background-color: #4d843f;
+        font-family: Roboto, Arial, sans-serif;
+        }
+
+        section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+        h1 {
+        font-size: 32px;
+        letter-spacing: 1px;
+        margin: 20px 0;
+        color: white;
+        }
+
+        form {
+        margin: 20px 0;
+        background-color: white;
+        padding: 30px 25px;
+        border-radius: 5px;
+        }
+
+        form .input-block {
+        margin-bottom: 20px;
+        }
+
+        form .input-block label {
+        font-size: 14px;
+        color: darkslateblue;
+        }
+
+        form .input-block input {
+        width: 100%;
+        display: block;
+        margin-top: 8px;
+        padding: 7px;
+        font-size: 16px;
+        color: #7159c1;
+        border-radius: 2px;
+        border: 1px solid #ccddef;
+        outline-color: #4d843f;
+        }
+
+        form .btn-login {
+        display: block;
+        min-width: 120px;
+        border: none;
+        background-color: #4d843f;
+        color: white;
+        border-radius: 25px;
+        margin: auto;
+        padding: 7px;
+        }
+
+        form {
+            animation-name: fade;
+            animation-duration: 500ms;
+        }
+        @keyframes fade {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+
+    </style>
+    
+    <!-- formulário -->
+
 </head>
 
 <body>
@@ -31,6 +124,41 @@
         </header>
     </div>
 
+<!-- formulário -->
+
+    <section class="form-section">
+        <h1>Entre em contato com a gente!</h1>
+  
+        <div class="form-wrapper">
+          <form action="">
+            <div class="input-block">
+              <label for="login-email">Nome</label>
+              <input type="text" id="login-email" />
+            </div>
+            <div class="input-block">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" />
+              </div>
+              <div class="input-block">
+                <label for="login-email">Telefone</label>
+                <input type="text" id="login-email" />
+              </div>
+              <div class="input-block">
+                <label for="login-email">Assunto</label>
+                <input type="text" id="login-email" />
+              </div>
+              <div class="input-block">
+                <label for="login-email">Mensagem</label>
+                <input type="text" id="login-email" />
+              </div>
+            <button type="submit" class="btn-login">Enviar</button>
+          </form>
+        </div>
+      </section>
+  
+
+
+      
 </body>
 
 </html>
