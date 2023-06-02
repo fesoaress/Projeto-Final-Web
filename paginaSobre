@@ -1,61 +1,21 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <title>Vida Verde | Sobre</title>
-    <link rel="shortcut icon" href="./img/plantar.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0; 
-            box-sizing: border-box;
-        }
-
-        body {
-            display: grid;
-            place-items: center;
-            height: 50vh;
-        }
-
-        #items-wrapper {
-            width: 50vw;
-        }
-
-        #items {
-            display: flex;
-            overflow-x: auto;
-            scroll-snap-type: x mandatory;
-        }
-
-        .item {
-            flex: none;
-            width: 100%;
-            height: 400px;
-            scroll-snap-align: start;
-            pointer-events: none;
-            scroll-behavior: smooth;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-    </style>
-
+    <title>Vida Verde| Sobre</title>
+    <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <div id="menu">
         <header>
             <br><br>
-            <figure id="logo"><a href="./img/logo.png"><img src="logo.png" alt="Logo"></a></figure>
+            <figure id="logo"><a href="../index.html"><img src="logo.png" alt="Logo"></a></figure>
             <br><br>
             <ul>
                 <li class="opcoes"><a class="linkhome" href="..//index.html">Início</a></li>
@@ -71,22 +31,6 @@
         </header>
     </div>
 
-<!-- carrossel -->
-    <div id="items-wrapper">
-        <div id="items">
-          <div class="item"><img src="./img/foto01.jpeg"/></div>
-          <div class="item"><img src="./img/foto02.jpeg"/></div>
-          <div class="item"><img src="./img/foto03.jpeg"/></div>
-          <div class="item"><img src="./img/foto04.jpeg"/></div>
-          <div class="item"><img src="./img/foto05.jpeg"/></div>
-          <div class="item"><img src="./img/foto06.jpeg"/></div>
-          <div class="item"><img src="./img/foto07.jpeg"/></div>
-          <div class="item"><img src="./img/foto08.jpeg"/></div>
-          <div class="item"><img src="./img/foto09.jpeg"/></div>
-        </div>
-      </div>
-<!-- carrossel -->
-      
-
 </body>
+
 </html>
