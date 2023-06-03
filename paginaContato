@@ -118,7 +118,7 @@
     <br>  
     <a class="linkhome" href="../pages/pagina3.html">Informações</a> 
     <br>
-    <a class="linkhome" href="../pages/pagina4.html">Entre em contato</a>
+    <a class="linkhome" href="../pages/pagina4.html" id="contato">Entre em contato</a>
     
    
 </div>  
