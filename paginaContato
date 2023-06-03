@@ -24,7 +24,7 @@
         }
 
         body {
-        background-color: #4d843f;
+        background-color: rgb(97, 157, 97);
         font-family: Roboto, Arial, sans-serif;
         }
 
@@ -40,6 +40,7 @@
         letter-spacing: 1px;
         margin: 20px 0;
         color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         form {
@@ -105,24 +106,22 @@
 
 <body>
 
-    <div id="menu">
-        <header>
-            <br><br>
-            <figure id="logo"><a href="../index.html"><img src="logo.png" alt="Logo"></a></figure>
-            <br><br>
-            <ul>
-                <li class="opcoes"><a class="linkhome" href="..//index.html">Início</a></li>
-                <br><br>
-                <li class="opcoes"><a class="linkhome" href="../pages/pagina1.html">Sobre</a></li>
-                <br><br>
-                <li class="opcoes"><a class="linkhome" href="../pages/pagina2.html">Produtos</a></li>
-                <br><br>
-                <li class="opcoes"><a class="linkhome" href="../pages/pagina3.html">Informações</a></li>
-                <br><br>
-                <li class="opcoes"><a class="linkhome" href="../pages/pagina4.html">Entre em contato</a></li>
-            </ul>
-        </header>
-    </div>
+  <div class="sidebar">
+
+    <figure id="logo"><a href="../index.html"><img class="imagem" src="logo.png" alt="Logo"></a></figure>
+    <br>
+    <a class="linkhome" href="../index.html">Início</a>
+    <br> 
+    <a class="linkhome" href="../pages/pagina1.html">Sobre</a>
+    <br>
+    <a class="linkhome" href="../pages/pagina2.html">Produtos</a>
+    <br>  
+    <a class="linkhome" href="../pages/pagina3.html">Informações</a> 
+    <br>
+    <a class="linkhome" href="../pages/pagina4.html">Entre em contato</a>
+    
+   
+</div>  
 
 <!-- formulário -->
 
