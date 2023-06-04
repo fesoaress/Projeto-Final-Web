@@ -45,14 +45,14 @@
         <figure id="logo"><a href="../index.html"><img class="imagem" src="./img/logo.png" alt="Logo"></a></figure>
         <br>
         <a class="linkhome" href="../index.html">Início</a>
+        <br> 
+        <a class="linkhome" href="../pages/sobre.html">Sobre</a>
         <br>
-        <a class="linkhome" href="./pagina1.html">Sobre</a>
+        <a class="linkhome" href="../pages/produtos.html">Produtos</a>
+        <br>  
+        <a class="linkhome" href="../pages/informacoes.html">Informações</a> 
         <br>
-        <a class="linkhome" href="./pagina2.html">Produtos</a>
-        <br>
-        <a class="linkhome" href="./pagina3.html">Informações</a>
-        <br>
-        <a class="linkhome" href="./pagina4.html">Entre em contato</a>
+        <a class="linkhome" href="../pages/contato.html" id="contato">Entre em contato</a>
 
 
     </div>
