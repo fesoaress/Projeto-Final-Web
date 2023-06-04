@@ -6,9 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <title>Vida Verde</title>
-    <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./plantar.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        #imagemindex {
+            text-align: right;
+        }
 
+        img.face {
+            float: right;
+            border: transparent thin solid;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: left;
+            margin-left: 140px;
+            font-family: Garamond;
+            font-size: 50px;
+        }
+
+        p {
+            text-align: justify;
+             /* width: 300px;
+            border: 5px solid green;
+            padding: 20px;
+            margin: 20px;
+            margin-left: 20px; 
+             */
+            /* background-color: #125d24;
+            border-radius: 50px; */
+        }
+
+        button {
+            align-content: left;
+        }
+
+        .botao {
+            display: block;
+            min-width: 120px;
+            border: none;
+            background-color: #125d24;
+            border-radius: 25px;
+            margin: auto;
+            padding: 7px;
+            
+        }
+
+        .botaolink {
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        .botao:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+        }
+
+    </style>
 
 </head>
 
@@ -16,7 +72,7 @@
 
     <div class="sidebar">
 
-        <figure id="logo"><a href="index.html"><img class="imagem" src="logo.png" alt="Logo"></a></figure>
+        <figure id="logo"><a href="index.html"><img class="imagem" src=".//image/logo.png"></a></figure>
         <br>
         <a class="linkhome" href="">Início</a>
         <br>
@@ -28,20 +84,38 @@
         <br>
         <a class="linkhome" href="pages/pagina4.html" id="contato">Entre em contato</a>
 
-
     </div>
 
-
     <div class="content">
-        <h1>Vida Verde:</h1>
+        <br><br><br><br><br>
+        <figure id="imagemindex">
+            <img src="./pages/img/indexhorta.jpg" alt="Imagem da Horta" class="face">
+            <br>
+        </figure>
+        <br><br><br>
+        
+        <h1>Vida Verde</h1>
+        <br><br>
+
         <p> Cultive, saboreie, viva de forma saudável e sustentável.
-            Nossa empresa oferece hortas hidropônicas inovadoras, produzindo alimentos frescos e nutritivos sem
+            Nossa empresa <br> oferece hortas hidropônicas inovadoras, produzindo alimentos frescos e <br> nutritivos
+            sem
             pesticidas.
-            Aproveite sabores intensos, aprenda sobre hidroponia e faça parte da revolução verde.
-            Descubra a diferença Vida Verde em nosso site e desfrute de uma vida mais saudável.
+            Aproveite sabores intensos, aprenda sobre <br> hidroponia e faça parte da revolução verde.
+            Descubra a diferença Vida Verde <br> em nosso site e desfrute de uma vida mais saudável.
         </p>
+        
+        <p>Ficou com curiosidade para saber o que é uma horta hidropônica?</p>
+        <br>
+        <button type="submit" class="botao">
+            <a href="https://www.embrapa.br/hortalica-nao-e-so-salada/hortalicas-hidroponicas" target="_next"
+                class="botaolink">Clique Aqui!</a>
+        </button>
+
     </div>
 
 </body>
+
+</html>
 
 </html>
