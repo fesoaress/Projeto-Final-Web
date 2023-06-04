@@ -5,33 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <title>Vida Verde| Produtos</title>
+    <title>Vida Verde| Informações</title>
     <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-
-    
 </head>
 
-<body>
+  <body>
 
     <div class="sidebar">
 
-        <figure id="logo"><a href="../index.html"><img class="imagem" src="logo.png" alt="Logo"></a></figure>
-        <br>
-        <a class="linkhome" href="../index.html">Início</a>
-        <br> 
-        <a class="linkhome" href="../pages/pagina1.html">Sobre</a>
-        <br>
-        <a class="linkhome" href="../pages/pagina2.html">Produtos</a>
-        <br>  
-        <a class="linkhome" href="../pages/pagina3.html">Informações</a> 
-        <br>
-        <a class="linkhome" href="../pages/pagina4.html" id="contato">Entre em contato</a>
+        <figure id="logo"><a href="index.html"><img class="imagem" src="logo.png" alt="Logo"></a></figure>
+
+        <a class="linkhome" href="">Início</a>
+        <a class="linkhome" href="pages/pagina1.html">Sobre</a>
+        <a class="linkhome" href="pages/pagina2.html">Produtos</a>   
+        <a class="linkhome" href="pages/pagina3.html">Informações</a> 
+        <a class="linkhome" href="pages/pagina4.html">Entre em contato</a>
         
        
     </div>
 
-</body>
+
+    <div class="content">
+       <h1>Vida Verde:</h1>
+        <p>  Cultive, saboreie, viva de forma saudável e sustentável.
+             Nossa empresa oferece hortas hidropônicas inovadoras, produzindo alimentos frescos e nutritivos sem pesticidas. 
+             Aproveite sabores intensos, aprenda sobre hidroponia e faça parte da revolução verde.
+              Descubra a diferença Vida Verde em nosso site e desfrute de uma vida mais saudável.
+        </p>
+    </div>
+
+    <div> class="tabela">
+      <table>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Agrião</td>
+            <td>R$ 2,80</td>
+        </tr>
+        <tr>
+            <td>Rúcula</td>
+            <td>R$ 2,80</td>
+        </tr>
+        <tr>
+            <td>Mostarda</td>
+            <td>R$ 2,40</td>
+        </tr>
+        <tr>
+            <td>Cebolinha</td>
+            <td>R$ 2,30</td>
+        </tr>
+        <tr>
+            <td>Coentro</td>
+            <td>R$ 2,30</td>
+        </tr>
+        <tr>
+            <td>Salsa</td>
+            <td>R$ 2,30</td>
+        </tr>
+        <tr>
+            <td>Alface</td>
+            <td>R$ 2,50</td>
+        </tr>
+        <tr>
+            <td>Almeirão</td>
+            <td>R$ 2,60</td>
+        </tr>
+        <tr>
+            <td>Rabanete</td>
+            <td>R$ 2,10</td>
+        </tr>
+        <tr>
+            <td>Couve</td>
+            <td>R$ 2,50</td>
+        </tr>
+        <tr>
+            <td>espinafre</td>
+            <td>R$ 2,70</td>
+        </tr>
+      </table>
+    </div>
+  </body>
 
 </html>
- 
