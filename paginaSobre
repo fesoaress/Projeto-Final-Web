@@ -8,6 +8,47 @@
     <title>Vida Verde| Sobre</title>
     <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    
+     <style>
+
+        * {
+            margin: 0;
+            padding: 0; 
+            box-sizing: border-box;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+            height: 50vh;
+        }
+
+        #items-wrapper {
+            width: 50vw;
+        }
+
+        #items {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .item {
+            flex: none;
+            width: 100%;
+            height: 400px;
+            scroll-snap-align: start;
+            pointer-events: none;
+            scroll-behavior: smooth;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    </style>
 
     
 </head>
