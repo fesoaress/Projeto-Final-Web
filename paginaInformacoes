@@ -6,31 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <title>Vida Verde| Informações</title>
-    <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/plantar.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(97, 157, 97);
+            color: white;
+        }
 
-    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid white;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid white;
+        }
+
+        th {
+            background-color: rgb(97, 157, 97);
+        }
+
+        @media screen and (max-width: 600px) {
+            table {
+                font-size: 12px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="sidebar">
-
-        <figure id="logo"><a href="../index.html"><img class="imagem" src="logo.png" alt="Logo"></a></figure>
+        <figure id="logo"><a href="../index.html"><img class="imagem" src="./img/logo.png" alt="Logo"></a></figure>
         <br>
         <a class="linkhome" href="../index.html">Início</a>
-        <br> 
-        <a class="linkhome" href="../pages/pagina1.html">Sobre</a>
         <br>
-        <a class="linkhome" href="../pages/pagina2.html">Produtos</a>
-        <br>  
-        <a class="linkhome" href="../pages/pagina3.html">Informações</a> 
+        <a class="linkhome" href="./pagina1.html">Sobre</a>
         <br>
-        <a class="linkhome" href="../pages/pagina4.html" id="contato">Entre em contato</a>
-        
-       
+        <a class="linkhome" href="./pagina2.html">Produtos</a>
+        <br>
+        <a class="linkhome" href="./pagina3.html">Informações</a>
+        <br>
+        <a class="linkhome" href="./pagina4.html">Entre em contato</a>
+
+
     </div>
 
+
+    <div class="content">
+        <h1>Vida Verde:</h1>
+        <p> Cultive, saboreie, viva de forma saudável e sustentável.
+            Nossa empresa oferece hortas hidropônicas inovadoras, produzindo alimentos frescos e nutritivos sem
+            pesticidas.
+            Aproveite sabores intensos, aprenda sobre hidroponia e faça parte da revolução verde.
+            Descubra a diferença Vida Verde em nosso site e desfrute de uma vida mais saudável.
+        </p>
+
+        <div class="tabela">
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Agrião</td>
+                    <td>R$ 2,80</td>
+                </tr>
+                <tr>
+                    <td>Rúcula</td>
+                    <td>R$ 2,80</td>
+                </tr>
+                <tr>
+                    <td>Mostarda</td>
+                    <td>R$ 2,40</td>
+                </tr>
+                <tr>
+                    <td>Cebolinha</td>
+                    <td>R$ 2,30</td>
+                </tr>
+                <tr>
+                    <td>Coentro</td>
+                    <td>R$ 2,30</td>
+                </tr>
+                <tr>
+                    <td>Salsa</td>
+                    <td>R$ 2,30</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    
 </body>
 
 </html>
