@@ -55,13 +55,12 @@
         }
 
         .text {
-            margin-top: 50px;
+            margin-top: 40px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin-right: 50px;
             text-align: center;    
             margin-left: 50px;
             font-size: larger;
-            
             border-radius: 10px;
             background-color: rgb(55, 119, 55);
  
@@ -81,13 +80,13 @@
         <br>
         <a class="linkhome" href="../index.html">Início</a>
         <br>
-        <a class="linkhome" href="../pages/pagina1.html">Sobre</a>
+        <a class="linkhome" href="../pages/sobre.html">Sobre</a>
         <br>
-        <a class="linkhome" href="../pages/pagina2.html">Produtos</a>
+        <a class="linkhome" href="../pages/produtos.html">Produtos</a>
         <br>
-        <a class="linkhome" href="../pages/pagina3.html">Informações</a>
+        <a class="linkhome" href="../pages/informacoes.html">Informações</a>
         <br>
-        <a class="linkhome" href="../pages/pagina4.html" id="contato">Entre em contato</a>
+        <a class="linkhome" href="../pages/contato.html" id="contato">Entre em contato</a>
 
 
     </div>
@@ -100,28 +99,28 @@
         
         <div id="items">
             <div class="item"><img class="imagem-carrossel" src="./img/foto01.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto02.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto03.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto04.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto05.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto06.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto07.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto08.jpeg" /></div>
-            <div class="item"><img class="imagem-carrossel"src="./img/foto09.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto02.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto03.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto04.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto05.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto06.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto07.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto08.jpeg" /></div>
+            <div class="item"><img class="imagem-carrossel" src="./img/foto09.jpeg" /></div>
         </div>
         <div class="texto-container">
            <p class="text">
             Nossas hortas hidropônicas são projetadas para maximizar a eficiência no uso de
             recursos, como
-            água e nutrientes, além de minimizar o impacto ambiental. Utilizando sistemas de recirculação de
+            água e nutrientes, além de <u>minimizar o impacto ambiental.</u> Utilizando sistemas de recirculação de
             água,
             reduzimos o desperdício e promovem a sustentabilidade. 
             <BR></BR>
             A Vida Verde se destaca pela qualidade dos
             produtos
-            que oferece. Ao cultivar as plantas em condições ideais, elas crescem de forma saudável e sem o uso
-            de
-            pesticidas ou herbicidas. Isso resulta em alimentos frescos, saborosos e livres de substâncias
+            que oferece.  Ao cultivar as plantas em condições ideais, elas crescem de forma saudável e <u>sem o uso
+                de
+                pesticidas ou herbicidas.</u> Isso resulta em alimentos frescos, saborosos e livres de substâncias
             químicas
             prejudiciais, proporcionando uma opção mais segura e nutritiva para os consumidores.
            </p> 
