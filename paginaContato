@@ -6,22 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <title>Vida Verde| Contato</title>
-    <link rel="shortcut icon" href="plantar.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/plantar.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
     <!-- formulário -->
     <style>
-        
-        * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        }
-
-        html,
-        body {
-        height: 100vh;
-        }
 
         body {
         background-color: rgb(97, 157, 97);
@@ -108,7 +97,7 @@
 
   <div class="sidebar">
 
-    <figure id="logo"><a href="../index.html"><img class="imagem" src="logo.png" alt="Logo"></a></figure>
+    <figure id="logo"><a href="../index.html"><img class="imagem" src="./img/logo.png" alt="Logo"></a></figure>
     <br>
     <a class="linkhome" href="../index.html">Início</a>
     <br> 
