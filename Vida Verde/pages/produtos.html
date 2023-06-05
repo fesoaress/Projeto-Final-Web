@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>Vida Verde| Produtos</title>
+    <link rel="shortcut icon" href="./img/plantar.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: #3D5735;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows:1fr 1fr 1fr;
+            grid-gap: 40px;
+            column-gap: 1px;
+
+            justify-items: right;
+            align-items: center;
+
+        }
+
+        .container > div {
+            
+            width: 50%;
+            height: 50%;
+            animation: appear 2s;
+            transition: transform 0.3s;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            font-weight: 200;
+            color: white;
+        }
+
+
+         h4 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+            font-size: 45px;
+            margin-left: 220px;
+            color: rgb(233, 226, 226);
+            background-color: #3D5735;
+
+            
+           
+        } 
+
+        .texto {
+            justify-content: right;
+            align-items: right;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            margin-top: 10%;
+            
+        }
+
+        .botao {
+            
+             margin: auto;
+            padding: 7px;
+            border: none;
+            display: block;
+            min-width: 120px;
+            border-radius: 30px;
+            background-color: #4CAF50; /* Cor de fundo do botão */
+            color: white; /* Cor do texto no botão */
+            
+            text-align: center; /* Alinhamento do texto no centro do botão */
+            text-decoration: none; /* Remova a decoração de texto (sublinhado) */
+           
+            font-size: 16px; /* Tamanho da fonte do texto no botão */
+            transition-duration: 0.4s; /* Duração da transição (efeito) */
+            cursor: pointer; /* Altera o cursor do mouse para um ícone de ponteiro */
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+
+
+
+    /* efeito ao carregar a página */
+
+        @keyframes appear {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+        }
+
+            100% {
+                 opacity: 1;
+         }
+    }
+
+    /* passar o mouse em cima e a imagem mexer */
+
+    button:hover {
+        transform: scale(1.2);
+        transition: transform 0.3s; 
+        background-color: #3c2202; /* Cor de fundo do botão quando o mouse estiver sobre ele */
+        color: white;
+    }
+
+    .mostarda:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+        
+    }
+    .agriao:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+    .rucula:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+    .coentro:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+    .salsa:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+    .cebolinha:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+
+
+
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+        <figure id="logo"><a href="../index.html"><img class="imagem" src="./img/logo.png" alt="Logo"></a></figure>
+        <br>
+        <a class="linkhome" href="../index.html">Início</a>
+        <br> 
+        <a class="linkhome" href="../pages/sobre.html">Sobre</a>
+        <br>
+        <a class="linkhome" href="../pages/produtos.html">Produtos</a>
+        <br>  
+        <a class="linkhome" href="../pages/informacoes.html">Informações</a> 
+        <br>
+        <a class="linkhome" href="../pages/contato.html" id="contato">Entre em contato</a>
+       
+    </div>
+
+    <h4>
+        Nossos produtos
+    </h4>
+
+    <div class="container">
+            <div class="mostarda">
+                <img src="./img/mostarda.svg" alt="mostarda">
+                <p>Mostarda</p>
+            </div>
+            <div class="agriao">
+                <img src="./img/agriao.svg" alt="agrião">
+                <p>Agrião</p>
+            </div>
+            <div class="rucula">
+                <img src="./img/rucula.svg" alt="rúcula">
+                <p>Rúcula</p>
+            </div>
+        
+        
+            <div class="coentro">
+                <img src="./img/coentro.svg" alt="coentro">
+                <p>Coentro</p>
+            </div>
+            <div class="salsa">
+                <img src="./img/salsa.svg" alt="salsa">
+                <p>Salsa</p>
+            </div>
+            <div class="cebolinha">
+                <img src="./img/cebolinha.svg" alt="cebolinha">
+                <p>Cebolinha</p>
+            </div>
+            <div>
+
+            </div>
+            <div class="texto">
+                <button type="submit" class="botao"> 
+                    <a href="../pages/informacoes.html">Ficou interessado? Confira nossos preços!</a>
+                </button>
+            </div>
+    </div>
+
+</body>
+
+</html>
+ 
