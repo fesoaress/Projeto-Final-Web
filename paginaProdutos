@@ -48,11 +48,15 @@
         }
 
 
-         header {
+         h4 {
             text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
             font-size: 45px;
             margin-left: 220px;
+            color: rgb(233, 226, 226);
+            background-color: #3D5735;
+
             
            
         } 
@@ -68,13 +72,21 @@
 
         .botao {
             
+             margin: auto;
+            padding: 7px;
+            border: none;
             display: block;
             min-width: 120px;
-            border: none;
-            background-color: green;
             border-radius: 30px;
-            margin: auto;
-            padding: 7px;
+            background-color: #4CAF50; /* Cor de fundo do botão */
+            color: white; /* Cor do texto no botão */
+            
+            text-align: center; /* Alinhamento do texto no centro do botão */
+            text-decoration: none; /* Remova a decoração de texto (sublinhado) */
+           
+            font-size: 16px; /* Tamanho da fonte do texto no botão */
+            transition-duration: 0.4s; /* Duração da transição (efeito) */
+            cursor: pointer; /* Altera o cursor do mouse para um ícone de ponteiro */
         }
 
         a {
@@ -102,8 +114,10 @@
     /* passar o mouse em cima e a imagem mexer */
 
     button:hover {
-        transform: scale(1.3);
-        transition: transform 0.3s;
+        transform: scale(1.2);
+        transition: transform 0.3s; 
+        background-color: #3c2202; /* Cor de fundo do botão quando o mouse estiver sobre ele */
+        color: white;
     }
 
     .mostarda:hover {
@@ -156,9 +170,9 @@
        
     </div>
 
-    <header>
+    <h4>
         Nossos produtos
-    </header>
+    </h4>
 
     <div class="container">
             <div class="mostarda">
@@ -192,7 +206,7 @@
             </div>
             <div class="texto">
                 <button type="submit" class="botao"> 
-                    <a href="../pages/pagina3.html">Ficou interessado? Confira nossos preços!</a>
+                    <a href="../pages/informacoes.html">Ficou interessado? Confira nossos preços!</a>
                 </button>
             </div>
     </div>
