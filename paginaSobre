@@ -45,6 +45,7 @@
 
         .texto {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 1px;
         }
 
         .texto-container {
@@ -52,6 +53,7 @@
             grid-column: 2;
             text-align: justify;
             margin-right: 10px;
+            
         }
 
         .text {
@@ -63,8 +65,38 @@
             font-size: larger;
             border-radius: 10px;
             background-color: rgb(55, 119, 55);
- 
+
         }
+
+        .primeiro-botao {
+            display: inline-block;
+            min-width: 120px;
+            border: none;
+            background-color: #125d24;
+            border-radius: 25px;
+            margin: auto;
+            margin-right: 50%;
+            margin-left: 50%;
+            padding: 7px;
+            text-align: center;
+            
+        }
+
+        .linkum {
+            text-decoration: none;
+            color: white;
+            font-size: medium;
+            text-align: justify;
+        }
+
+
+
+        .primeiro-botao:hover {
+            transform: scale(1.1);
+            transition: transform 0.2s;
+            background-color: #3c2202;
+        }
+        
         
 
     </style>
@@ -125,10 +157,17 @@
             prejudiciais, proporcionando uma opção mais segura e nutritiva para os consumidores.
            </p> 
         </div>
-
-        
+        <br>
     </div>
 
+    <button class="primeiro-botao" type="submit">
+        <a href="https://tropicalestufas.com.br/quais-as-vantagens-da-horta-hidroponica/"
+            class="linkum" target="_next">Saiba mais vantagens de uma horta hidropônica!</a>
+    </button>
+    <br><br>
+    <button class="primeiro-botao" type="submit">
+        <a href="https://blog.plantei.com.br/como-fazer-uma-horta-hidroponica-em-casa/#:~:text=A%20Hidroponia%20%C3%A9%20um%20sistema,areia%20ou%20outros%20materiais%20inertes" class="linkum" target="_next">Saiba mais sobre o processo!</a>
+    </button>
 
 
     </body>
